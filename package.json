@@ -1,0 +1,11 @@
+{
+  "name": "student-system",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"cd system-registration && node server.js\" \"cd student-registration-frontend && npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^8.0.0",
+    "express": "^5.2.1"
+  }
+}
